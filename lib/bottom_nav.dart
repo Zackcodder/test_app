@@ -39,12 +39,9 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
           ///internet image
           Image.network(
-              'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg')
+              'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg'),
         ],
       ),
-      // Center(
-      //   child: Text('Selected Tab: $_selectedIndex'),
-      // ),
       bottomNavigationBar: BottomAppBar(
         color: Colors.black,
         shape: const CircularNotchedRectangle(),
