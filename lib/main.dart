@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/bottom_nav.dart';
 import 'package:test_app/login_screen.dart';
 import 'package:test_app/my_home_page.dart';
 
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginScreen(),
-      // const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const BottomNavBar(),
     );
   }
 }
